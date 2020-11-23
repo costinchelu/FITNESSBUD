@@ -1,0 +1,125 @@
+{
+  "food": [
+    {
+      "imagine": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/chickenjalfrezi_91772_16x9.jpg",
+      "nume": "orez curry cu pui",
+      "portie": "350g",
+      "calorii": "290 kcal",
+      "compozitie": {
+        "carbohidrati": "39g",
+        "grasimi": "2.7g",
+        "proteine": "24g"
+      }
+    },
+    {
+      "imagine": "https://laprovincia.ro/wp-content/uploads/2018/12/03-Ciorba-Radauteana-730x396.jpg",
+      "nume": "ciorba radauteana",
+      "portie": "400ml",
+      "calorii": "130 kcal",
+      "compozitie": {
+        "carbohidrati": "8g",
+        "grasimi": "4g",
+        "proteine": "13g"
+      }
+    },
+    {
+      "imagine": "https://images-gmi-pmc.edge-generalmills.com/b57ee35f-bce2-4229-8bf5-19b97876a4cb.jpg",
+      "nume": "gratar de vita",
+      "portie": "380g",
+      "calorii": "480 kcal",
+      "compozitie": {
+        "carbohidrati": "0g",
+        "grasimi": "18g",
+        "proteine": "75g"
+      }
+    },
+    {
+      "imagine": "https://www.seriouseats.com/2018/04/20180309-french-fries-vicky-wasik-15-1500x1125.jpg",
+      "nume": "cartofi prajiti",
+      "portie": "200g",
+      "calorii": "280 kcal",
+      "compozitie": {
+        "carbohidrati": "44.8g",
+        "grasimi": "8g",
+        "proteine": "4.4g"
+      }
+    },
+    {
+      "imagine": "https://recipeland.com/images/r/17726/a56e0500c488a6b3331a_1024.jpg",
+      "nume": "somon la gratar",
+      "portie": "180g",
+      "calorii": "240 kcal",
+      "compozitie": {
+        "carbohidrati": "0g",
+        "grasimi": "10.8g",
+        "proteine": "33.7g"
+      }
+    },
+    {
+      "imagine": "https://www.retetepractice.ro/wp-content/uploads/2016/05/Salata-mediteraneana.jpg",
+      "nume": "salata mediteraneeana",
+      "portie": "200g",
+      "calorii": "142 kcal",
+      "compozitie": {
+        "carbohidrati": "10g",
+        "grasimi": "8.7g",
+        "proteine": "9g"
+      }
+    },
+    {
+      "imagine": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/healthyspaghettibolo_80401_16x9.jpg",
+      "nume": "paste cu sos bolognese",
+      "portie": "300g",
+      "calorii": "384 kcal",
+      "compozitie": {
+        "carbohidrati": "41.4g",
+        "grasimi": "14.7g",
+        "proteine": "19.8g"
+      }
+    },
+    {
+      "imagine": "https://casaluica.ro/wp-content/uploads/2017/10/snitel_pui_parizian-cm-520x237.jpg",
+      "nume": "snitel de pui",
+      "portie": "100g",
+      "calorii": "194 kcal",
+      "compozitie": {
+        "carbohidrati": "3g",
+        "grasimi": "9.5g",
+        "proteine": "24g"
+      }
+    },
+    {
+      "imagine": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/healthyspaghettibolo_80401_16x9.jpg",
+      "nume": "fasole batuta",
+      "portie": "100g",
+      "calorii": "161 kcal",
+      "compozitie": {
+        "carbohidrati": "14.4g",
+        "grasimi": "8.1g",
+        "proteine": "6.4g"
+      }
+    },
+    {
+      "imagine": "https://www.gustos.ro/assets/recipes_images/2012/04/11/87221/tn4_mancaruri_prajituri625.jpg",
+      "nume": "cornulete cu gem",
+      "portie": "80g",
+      "calorii": "390 kcal",
+      "compozitie": {
+        "carbohidrati": "51g",
+        "grasimi": "19.5g",
+        "proteine": "3.5g"
+      }
+    },
+    {
+      "imagine": "https://lacristi.ro/wp-content/uploads/2018/10/Amandina.jpg",
+      "nume": "amandina",
+      "portie": "100g",
+      "calorii": "404 kcal",
+      "compozitie": {
+        "carbohidrati": "43.4g",
+        "grasimi": "22.7g",
+        "proteine": "6.6g"
+      }
+    }
+  ]
+}

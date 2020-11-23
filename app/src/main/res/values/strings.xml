@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Fitness Health and Food</string>
+    <string name="activitate_fitness_titlu">Lista fitness</string>
+    <string name="activitate_mese_titlu">Lista mese</string>
+    <string name="activitate_comunicatii_titlu">Comunicatii externe</string>
+    <string name="activitate_despre_titlu">Despre</string>
+    <string name="activitate_utilizator_titlu">Informatii utilizator</string>
+    <string name="activitate_mese_add_titlu">Adauga masa</string>
+    <string name="activitate_fitness_add_titlu">Adauga activitate fitness</string>
+    <string name="activitate_mese_edit_titlu">Editeaza sau sterge masa</string>
+    <string name="activitate_fitness_edit_titlu">Editeaza sau sterge activitate fizica</string>
+    <string name="activitate_rapoarte_titlu">Rapoarte</string>
+    <string name="activitate_raport_1_titlu">Raport activitati sportive - luna curenta</string>
+    <string name="activitate_raport_2_titlu">Raport caloric</string>
+    <string name="activitate_grafic_titlu">Grafic calorii</string>
+    <string name="descriere_app">Aplicatie mobila pentru monitorizarea activitatilor personale (greutate, ore, durate si continut mese zilnice, efort fizic depus etc.)</string>
+    <string name="masa_btn">Masa</string>
+    <string name="descriere_masa">Acces la lista de activitati alimentare precum si adaugarea de noi mese</string>
+    <string name="fitness_btn">Fitness</string>
+    <string name="descriere_fitness">Acces la lista de activitati fitness precum si adaugarea de noi exercitii</string>
+    <string name="app_image">App image</string>
+    <string name="descriere_acces_json">Informatii despre produse alimentare preluate de pe internet</string>
+    <string name="acces_json_btn">Acces extern</string>
+    <string name="menu_utilizator">Utilizator</string>
+    <string name="menu_despre">Despre</string>
+    <string name="add_et_denumire_hint">Denumire</string>
+    <string name="add_et_denumire_activitate_hint">Denumire activitate</string>
+    <string name="perioada">Masa luata in perioada:</string>
+    <string name="mic_dejun">Mic dejun</string>
+    <string name="pranz">Pranz</string>
+    <string name="cina">Cina</string>
+    <string name="snack">Gustare</string>
+    <string name="tv_mese_add_calorii">Numar calorii per portie:</string>
+    <string name="et_mese_add_hint">Numar calorii</string>
+    <string name="tv_mese_add_nr_portii">Numar portii:</string>
+    <string name="data">Data:</string>
+    <string name="btn_salveaza">Salveaza</string>
+    <string name="data_intrarii">Data intrarii</string>
+    <string name="validare_nume_activitate">Introduceti o denumire pentru noua activitate</string>
+    <string name="validare_numar_calorii">Introduceti numarul de calorii</string>
+    <string name="validare_numar_pozitiv_calorii">Numarul de calorii nu poate fi mai mic decat 1</string>
+    <string name="validare_data_activitate">Data intrarii este incorecta! Format corect: dd-MM-yyyy</string>
+    <string name="validare_an_curent">Introduceti anul curent sau anul anterior. Aplicatia nu permite intrari mai vechi de un an calendaristic</string>
+    <string name="validare_zi_luna">Ziua sau luna introdusa este gresita</string>
+    <string name="adapter_no_content">-</string>
+    <string name="adapter_nr_portii">Nr. portii = </string>
+    <string name="adapter_nr_calorii_portie">Nr. calorii/portie = </string>
+    <string name="tv_fitness_add_minute">Numar de minute activitate fitness:</string>
+    <string name="et_fitness_minute_hint">Minute activitate</string>
+    <string name="tv_fitness_add_calorii">Numar de calorii consumate in activitate:</string>
+    <string name="calorii_consumate">Calorii consumate</string>
+    <string name="despre_descriere_iv">Imagine importata in drawable</string>
+    <string name="despre_grupa">Grupa 1148 ID</string>
+    <string name="despre_back_to_main">Inapoi in meniul principal</string>
+    <string name="despre_proiect">Proiect pentru programarea aplicatiilor mobile</string>
+    <string name="despre_autor">Student: Costin Chelu</string>
+    <string name="rate_me">Rate me!</string>
+    <string name="eroare_incarcarea_imaginii">Eroare la incarcarea imaginii</string>
+    <string name="eroare_alegere_imagine">Nu ai ales nicio imagine!</string>
+    <string name="imaginea_utilizatorului">Imaginea utilizatorului</string>
+    <string name="user_btn_text">Incarca imaginea</string>
+    <string name="user_tv_descriere_iv">Incarca avatarul utilizatorului din galeria dispozitivului</string>
+    <string name="user_hint_et_sex">Sex</string>
+    <string name="user_tv_sex">Sexul utilizatorului</string>
+    <string name="user_et_hint_greutate">Greutate</string>
+    <string name="user_tv_calorii">Necesarul caloric zilnic (kcal)</string>
+    <string name="user_et_hint_calorii">Necesar caloric</string>
+    <string name="user_tv_greutate">Greutatea utilizatorului (kg)</string>
+    <string name="user_tv_nume">Numele utilizatorului</string>
+    <string name="user_et_hint_nume">Nume utilizator</string>
+    <string name="user_tv_varsta">Varsta utilizatorului (ani)</string>
+    <string name="user_et_varsta">Varsta</string>
+    <string name="user_tv_inaltimea">Inaltimea utilizatorului (cm)</string>
+    <string name="user_et_inaltimea">Inaltime</string>
+    <string name="lv_json_image_description">Imaginea produsului</string>
+    <string name="btn_anuleaza">Anuleaza</string>
+    <string name="menu_principal">Meniu principal</string>
+    <string name="alerta_stergere_dialog">Esti sigur ca doresti stergerea intrarii?</string>
+    <string name="btn_sterge">Sterge</string>
+    <string name="descriere_tv_rapoarte">Acces la rapoarte</string>
+    <string name="rapoarte_btn">Rapoarte</string>
+    <string name="rapoarte_tv_1">Raport activitati fizice in luna curenta</string>
+    <string name="btn_executa_raportul">Executa raportul</string>
+    <string name="rapoarte_tv_2">Raport analiza consum caloric la data introdusa</string>
+    <string name="rapoarte_et_hint">Introduceti data pentru care doriti raportul</string>
+    <string name="btn_inapoi_la_rapoarte">Inapoi la rapoarte</string>
+    <string name="raport_2_tv_bilant_titlu">Bilantul zilnic al caloriilor:</string>
+    <string name="raport_2_tv_explicatii">Raportul calculeaza bilantul caloric al utilizatorului pe ziua aleasa.
+        Bilantul se calculeaza prin scaderea din necesarul zilnic al caloriilor ingerate si eventual adaugarea de calorii din activitati fizice.
+        (Necesarul zilnic al utilizatorului se obtine din fereastra Detalii utilizator.
+        Daca nu se precizeaza nicio valoare, atunci se va calcula dupa un standard de 2200 kcal)</string>
+    <string name="raport_2_afisare_data">Data raportului:\u0020%1s</string>
+    <string name="raport_2_afisare_necesar">Necesarul zilnic este de\u0020%1d kcal</string>
+    <string name="raport_2_afisare_calorii_mese">Calorii ingerate:\u0020%1d kcal</string>
+    <string name="raport_2_afisare_calorii_fitness">Calorii consumate:\u0020%1d kcal</string>
+    <string name="raport_2_afisare_bilant">Bilantul zilei\u0020</string>
+    <string name="raport_2_calorii_economisite">\Ai economisit\u0020%1d kcal</string>
+    <string name="raport_2_calorii_surplus">\Ai consumat in plus\u0020%1d kcal fata de necesarul zilnic</string>
+    <string name="raport_2_activitati_inexistente">Activitati inexistente pe ziua\u0020%1s</string>
+    <string name="grafic_2_fara_mese">Nu sunt intrari pe data de\u0020%1s</string>
+    <string name="grafic_2_cu_mese">Mese la data\u0020%1s</string>
+    <string name="btn_genereaza_grafic">Genereaza grafic</string>
+    <string name="menu_lista_activitati_fizice">Lista activitati fizice</string>
+    <string name="menu_rapoarte">Rapoarte</string>
+    <string name="menu_lista_mese">Lista mese</string>
+    <string name="graph_description">Nr. calorii / masa</string>
+    <string name="adapter_fitness_minute">Minute activitate%1d</string>
+    <string name="google_maps_api_key">AIzaSyBOzdl2xRTFp8mBA3Dblf3UIbMMSSNkR7Y</string>
+    <string name="menu_map">Locatie</string>
+
+    <string-array name="spn_mese_add_nr_portii">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+    </string-array>
+</resources>

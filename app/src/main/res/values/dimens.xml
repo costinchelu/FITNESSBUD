@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Dimensiuni particularizate: -->
+    <dimen name="text_large_15sp">15sp</dimen>
+    <dimen name="text_large_16sp">16sp</dimen>
+    <dimen name="text_large_18sp">18sp</dimen>
+    <dimen name="text_large_20sp">20sp</dimen>
+    <dimen name="text_titlu">25sp</dimen>
+    <dimen name="padding_small">30sp</dimen>
+    <dimen name="padding_medium">45sp</dimen>
+    <dimen name="padding_large">60sp</dimen>
+
+</resources>

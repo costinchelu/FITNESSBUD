@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lv_json_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/lv_json_image"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="0.5"
+            app:srcCompat="@android:drawable/alert_light_frame"
+            android:contentDescription="@string/lv_json_image_description"
+            android:background="@color/cardview_dark_background"/>
+
+        <TextView
+            android:id="@+id/lv_json_tv_nume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/text_large_18sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lv_json_tv_portie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_json_linear"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/padding_small"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_large_16sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/lv_json_tv_calorii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_json_tv_portie"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/padding_small"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_large_16sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lv_json_tv_carbo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_json_tv_calorii"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/padding_large"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_large_15sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lv_json_tv_proteine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_json_tv_carbo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/padding_large"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_large_15sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lv_json_tv_lipide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_json_tv_proteine"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/padding_large"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_large_15sp"
+        android:text="" />
+
+</RelativeLayout>

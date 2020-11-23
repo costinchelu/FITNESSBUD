@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lv_fitness_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_large_20sp"
+        android:paddingLeft="4dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/lv_fitness_nume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_large_18sp"
+        android:paddingLeft="4dp"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/lv_fitness_data"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_below="@+id/lv_fitness_nume">
+        <TextView
+            android:id="@+id/lv_fitness_timp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/text_large_15sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/lv_fitness_calorii"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/text_large_15sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+</RelativeLayout>

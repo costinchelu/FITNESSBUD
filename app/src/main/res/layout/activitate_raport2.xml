@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitateRaport2">
+
+    <TextView
+        android:id="@+id/raport_2_tv_explicatii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/raport_2_tv_explicatii"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/raport_2_tv_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/text_large_16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/raport_2_tv_explicatii" />
+
+    <TextView
+        android:id="@+id/raport_2_tv_calorii_mese"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_large_16sp"
+        app:layout_constraintEnd_toEndOf="@+id/raport_2_tv_necesar"
+        app:layout_constraintStart_toStartOf="@+id/raport_2_tv_necesar"
+        app:layout_constraintTop_toBottomOf="@+id/raport_2_tv_necesar" />
+
+    <TextView
+        android:id="@+id/raport_2_tv_calorii_fitness"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="@dimen/text_large_16sp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="@+id/raport_2_tv_calorii_mese"
+        app:layout_constraintStart_toStartOf="@+id/raport_2_tv_calorii_mese"
+        app:layout_constraintTop_toBottomOf="@+id/raport_2_tv_calorii_mese" />
+
+    <TextView
+        android:id="@+id/raport_2_tv_necesar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_large_16sp"
+        app:layout_constraintEnd_toEndOf="@+id/raport_2_tv_data"
+        app:layout_constraintStart_toStartOf="@+id/raport_2_tv_data"
+        app:layout_constraintTop_toBottomOf="@+id/raport_2_tv_data" />
+
+    <TextView
+        android:id="@+id/raport_2_tv_bilant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/raport_2_tv_calorii_fitness"
+        app:layout_constraintStart_toStartOf="@+id/raport_2_tv_calorii_fitness"
+        app:layout_constraintTop_toBottomOf="@+id/raport_2_tv_calorii_fitness" />
+
+    <Button
+        android:id="@+id/raport_2_btn_back"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorDarkBerry"
+        android:text="@string/btn_inapoi_la_rapoarte"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/raport_2_btn_grafic"
+        app:layout_constraintStart_toStartOf="@+id/raport_2_btn_grafic" />
+
+    <Button
+        android:id="@+id/raport_2_btn_grafic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorDarkBerry"
+        android:text="@string/btn_genereaza_grafic"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/raport_2_btn_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitateUtilizator">
+
+    <EditText
+        android:id="@+id/user_et_sex"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/user_hint_et_sex"
+        app:layout_constraintEnd_toEndOf="@+id/user_tv_sex"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_tv_sex" />
+
+    <TextView
+        android:id="@+id/user_tv_sex"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/user_tv_sex"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_et_greutate" />
+
+    <EditText
+        android:id="@+id/user_et_greutate"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/user_et_hint_greutate"
+        app:layout_constraintEnd_toStartOf="@+id/user_et_calorii"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_tv_greutate" />
+
+    <TextView
+        android:id="@+id/user_tv_necesar"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/user_tv_calorii"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_et_inaltime" />
+
+    <EditText
+        android:id="@+id/user_et_calorii"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="@string/user_et_hint_calorii"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_tv_necesar" />
+
+    <TextView
+        android:id="@+id/user_tv_greutate"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="17dp"
+        android:text="@string/user_tv_greutate"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toStartOf="@+id/user_tv_necesar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_et_varsta" />
+
+    <ImageView
+        android:id="@+id/user_iv"
+        android:layout_width="122dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/user_128"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/imaginea_utilizatorului" />
+
+    <Button
+        android:id="@+id/user_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorDarkBerry"
+        android:text="@string/user_btn_text"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_large_18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/user_iv"
+        app:layout_constraintEnd_toEndOf="@+id/user_tv_descriere_iv"
+        app:layout_constraintStart_toStartOf="@+id/user_tv_descriere_iv"
+        app:layout_constraintTop_toBottomOf="@+id/user_tv_descriere_iv"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/user_tv_descriere_iv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="@dimen/text_large_16sp"
+        android:text="@string/user_tv_descriere_iv"
+        app:layout_constraintEnd_toStartOf="@+id/user_iv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/user_tv_nume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/user_tv_nume"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_iv" />
+
+    <EditText
+        android:id="@+id/user_et_nume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/user_et_hint_nume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_tv_nume" />
+
+    <TextView
+        android:id="@+id/user_tv_varsta"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/user_tv_varsta"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toStartOf="@+id/user_tv_inaltimea"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_et_nume" />
+
+    <EditText
+        android:id="@+id/user_et_varsta"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/user_et_varsta"
+        app:layout_constraintEnd_toStartOf="@+id/user_et_inaltime"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_tv_varsta" />
+
+    <TextView
+        android:id="@+id/user_tv_inaltimea"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/user_tv_inaltimea"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_et_nume" />
+
+    <EditText
+        android:id="@+id/user_et_inaltime"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/user_et_inaltimea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_tv_inaltimea" />
+
+    <ImageButton
+        android:id="@+id/user_ib"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/back_home"
+        android:contentDescription="@string/despre_back_to_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

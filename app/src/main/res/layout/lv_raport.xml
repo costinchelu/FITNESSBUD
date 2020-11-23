@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lv_raport_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_large_20sp"/>
+
+    <TextView
+        android:id="@+id/lv_raport_nume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_raport_data"
+        android:paddingLeft="4dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_large_18sp"/>
+
+    <TextView
+        android:id="@+id/lv_raport_calorii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_large_15sp"
+        android:layout_below="@id/lv_raport_nume"/>
+
+</RelativeLayout>

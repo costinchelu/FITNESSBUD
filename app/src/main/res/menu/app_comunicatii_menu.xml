@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_comunicatii_principal"
+        android:title="@string/menu_principal" />
+
+    <item
+        android:id="@+id/menu_comunicatii_utilizator"
+        android:title="@string/menu_utilizator" />
+
+    <item
+        android:id="@+id/menu_comunicatii_despre"
+        android:title="@string/menu_despre" />
+</menu>

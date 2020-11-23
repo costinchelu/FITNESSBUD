@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="proiect.costin.ro.fitnesshealthandfood">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeWarm">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ActivitateMap"
+            android:label="@string/menu_map"/>
+        <activity
+            android:name=".ActivitateGrafic"
+            android:label="@string/activitate_grafic_titlu"/>
+        <activity
+            android:name=".ActivitateRaport2"
+            android:label="@string/activitate_raport_2_titlu" />
+        <activity
+            android:name=".ActivitateRaport1"
+            android:label="@string/activitate_raport_1_titlu" />
+        <activity
+            android:name=".ActivitateRapoarte"
+            android:label="@string/activitate_rapoarte_titlu" />
+        <activity
+            android:name=".ActivitateFitnessEdit"
+            android:label="@string/activitate_fitness_titlu" />
+        <activity
+            android:name=".ActivitateMeseEdit"
+            android:label="@string/activitate_mese_edit_titlu" />
+        <activity
+            android:name=".ActivitateFitnessAdd"
+            android:label="@string/activitate_fitness_add_titlu" />
+        <activity
+            android:name=".ActivitateMeseAdd"
+            android:label="@string/activitate_mese_add_titlu" />
+        <activity
+            android:name=".ActivitateUtilizator"
+            android:label="@string/activitate_utilizator_titlu" />
+        <activity
+            android:name=".ActivitateDespre"
+            android:label="@string/activitate_despre_titlu" />
+        <activity
+            android:name=".ActivitateComunicatii"
+            android:label="@string/activitate_comunicatii_titlu" />
+        <activity
+            android:name=".ActivitateFitness"
+            android:label="@string/activitate_fitness_titlu" />
+        <activity
+            android:name=".ActivitateMese"
+            android:label="@string/activitate_mese_titlu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_masa_menu_principal"
+        android:title="@string/menu_principal" />
+
+    <item
+        android:id="@+id/add_masa_menu_lista_fitness"
+        android:title="@string/menu_lista_activitati_fizice" />
+
+    <item
+        android:id="@+id/add_masa_menu_rapoarte"
+        android:title="@string/menu_rapoarte" />
+
+    <item
+        android:id="@+id/add_masa_menu_utilizator"
+        android:title="@string/menu_utilizator" />
+
+    <item
+        android:id="@+id/add_masa_menu_despre"
+        android:title="@string/menu_despre" />
+</menu>
